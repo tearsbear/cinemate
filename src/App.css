@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap');
+
+/* define class montserrat font */
+.montserrat-light {
+  font-weight: 300 !important;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.montserrat-regular {
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.montserrat-medium {
+  font-weight: 500 !important;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.montserrat-semibold {
+  font-weight: 600 !important;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.montserrat-bold {
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* define class spartan font */
+.spartan-light {
+  font-weight: 300 !important;
+  font-family: "Spartan", sans-serif;
+}
+
+.spartan-regular {
+  font-weight: 400 !important;
+  font-family: "Spartan", sans-serif;
+}
+
+.spartan-medium {
+  font-weight: 500 !important;
+  font-family: "Spartan", sans-serif;
+}
+
+.spartan-semibold {
+  font-weight: 600 !important;
+  font-family: "Spartan", sans-serif;
+}
+
+.spartan-bold {
+  font-weight: 700 !important;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  background-color: #161616;
 }

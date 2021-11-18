@@ -1,0 +1,135 @@
+.search {
+    z-index: 10;
+    position: relative;
+    height: 80px;
+    margin: -40px 80px 50px;
+    padding: 23px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+}
+
+.search input {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    outline: none;
+}
+
+.search h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.movie-list {
+    padding: 20px 90px;
+}
+
+.movie-list h1 {
+    font-size: 25px;
+}
+
+.movie-card {
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    height: 225px;
+    border-radius: 20px;
+}
+
+.movie-card img {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.movie-card img:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.btn-view {
+    background-color: #000;
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.btn-view:hover {
+    padding: 9px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.modalImg {
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+    z-index: 10;
+}
+
+.modalImg img {
+    margin: auto;
+    display: block;
+    /* width: 100%; */
+    max-width: 700px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
