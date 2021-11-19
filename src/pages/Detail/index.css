@@ -1,0 +1,96 @@
+.bg-banner {
+    background-color: rgb(44, 44, 44);
+    height: 250px;
+}
+
+.btn-back {
+    margin-top: 50px;
+    padding: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.detail-card {
+    margin: 0px 50px;
+}
+
+.detail-card img {
+    margin-top: -100px;
+    border-radius: 20px;
+}
+
+.plot {
+    max-width: 480px;
+    margin-top: 20px;
+}
+
+.modalImg {
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+    z-index: 10;
+}
+
+.modalImg img {
+    margin: auto;
+    display: block;
+    /* width: 100%; */
+    max-width: 700px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
