@@ -7,6 +7,9 @@ I'm using the following dribble design for my inspiration to create the UI
 https://dribbble.com/shots/15062792-Optiglo-Portable-projector-interface
 https://dribbble.com/shots/16701392--113-Concept-shots
 
+## Demo
+https://cinemate-beta.vercel.app/
+
 ## Available Scripts
 
 In the project directory, first you need to install the dependencies of the project:
