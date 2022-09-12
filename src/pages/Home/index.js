@@ -118,6 +118,9 @@ function Home() {
                             onClick={() => showPoster(item.Poster)}
                         />
                     ))}
+                <center>
+                    <h3>Made by passion from <a href="https://jiaan.vercel.app" target="_blank">Jiaan</a></h3>
+                </center>
             </div>
             {!notFound && loading ? (
                 <div className="text-center text-white pb-5">loading data ...</div>
